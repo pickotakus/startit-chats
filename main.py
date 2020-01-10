@@ -4,7 +4,7 @@ app = Flask('app')
 
 @app.route('/')
 def index_page():
-  return render_template("index.html")
+  return render_template("chats.html")
 
 @app.route('/chats/lasi')
 def ielasit_chatu():
